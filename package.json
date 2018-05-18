@@ -1,0 +1,31 @@
+{
+  "name": "@victorsac/platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma Platzom",
+  "main": "/dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorsac01/pruebas.git"
+  },
+  "keywords": [
+    "platzom",
+    "pruebas",
+    "js"
+  ],
+  "author": "Victor Sacramento",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorsac01/pruebas/issues"
+  },
+  "homepage": "https://github.com/victorsac01/pruebas#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
